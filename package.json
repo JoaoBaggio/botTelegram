@@ -13,6 +13,9 @@
     "bot",
     "node.js"
   ],
+  "engines": {
+    "node": "18.x"
+  },
   "author": "João Baggio",
   "license": "MIT",
   "dependencies": {
