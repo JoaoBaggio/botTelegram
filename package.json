@@ -1,7 +1,7 @@
 {
   "name": "bot",
   "version": "1.0.0",
-  "description": "Telegram Bot for Grupo do Golpe",
+  "description": "Telegram Bot Grupo do Golpe",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
