@@ -22,7 +22,7 @@ bot.onText(/\/orelha/, (msg) => {
 });
 
 
-schedule.scheduleJob('0 0 5 * * *', async () => {
+schedule.scheduleJob('0 0 10 * * *', async () => {
     try {
         const parser = new PublicGoogleSheetsParser(spreadsheetId)
         const sheet = await parser.parse()
